@@ -1,0 +1,1226 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000; 
+}
+@media screen and (min-width:757px){
+.contents1{
+    font-size: 15px;
+    font-weight: lighter;
+    color: white;
+}
+
+.intro_bg{
+    background-image: url(./images/새벽뷰\ \(3\).jpeg);
+    width: 100%;
+    height: 757px;
+    margin: auto auto 0px auto;
+}
+
+.header{
+    display:flex;
+    width: 1280px;
+    margin: auto;
+    height: 900px;
+    position: fixed;
+    left: 700px;
+    z-index: 1;
+    
+}
+#nav{
+    display:flex;
+    justify-content: center;
+    line-height: 80px;
+    width: calc(1280px-300px);
+    color: white;
+}
+
+#nav>li{
+    margin-right: 80px;
+}
+
+#nav>li>a{
+    color: white;
+}
+
+.amount{
+    width: 1000px;
+    background: rgb(51,63,80);
+    margin: auto auto 40px auto ;
+    display: flex;
+    position: relative;
+    top: 50px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+.amount>li{
+    flex: 1 ;
+    height: 29px;
+    background: rgb(51,63,80);
+}
+.amount>li>div{
+    text-align: center;
+    background: rgb(51,63,80);
+    border-right: 1px solid white;
+
+}
+.amount>li>li:not(:last-child)>div{
+    border-right: 1px solid white;
+}
+.intro_text{
+    width: 100%;
+    height: 700px;
+    margin: 0px auto 0px auto;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 758px;
+}
+.intro_text>h1{
+    font-size: 10px;
+    font-weight: 10;
+    color: white;
+    text-align: center;
+
+}
+.intro_text >h4{
+    color: white;
+    position: relavtive;
+    top: -500px
+}   
+.box{
+    width: 40px;
+    padding: 270px 0;
+    background-color: rgb(119 121 145);
+    position: relative;
+    left: 0px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    overflow: hidden;
+}
+.box1{
+    width: 40px;
+    padding: 300px 0;
+    background-color: rgb(119 121 145);
+    position: relative;
+    left: 0px;
+    top: -40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    overflow: hidden;
+}
+#fifth .box{
+    position: relative;
+    top: -40px;
+}
+
+.int{
+    width: 200px;
+    background: rgb(51,63,80);
+    margin: 100px 0px;
+    position: absolute;
+    left: 800px;
+    top: 850px;
+}
+
+.item{
+    width: 400px;
+    margin: 30px auto auto;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.item1{
+    width: 400px;
+    margin: 30px auto auto;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+p{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.img-wrap{
+    position: absolute;
+    left: 120px;
+    top: 900px;
+}
+.selfimg{
+    height: 550px;
+}
+
+.trip{
+    width: 750px;
+    background: rgb(51,63,80);
+    margin: 100px 0px 0px 700px ;
+    position: absolute;
+    top: 1400px;
+}
+
+.img-wrap2{
+    position: absolute;
+    top: 1600px;
+    left: 170px;
+}
+.position5{ /*부산*/
+    width: 30px;  height: auto;
+    position: absolute;
+    top: 350px;
+    left: 250px;
+
+
+}
+.position9{ /*파주*/
+    width: 30px;  height: auto;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+
+}
+.position7{      /*인천*/
+    width: 30px;  height: auto;
+    position: absolute;
+    top: 150px;
+    left: 70px;
+
+}
+.position4{     /*남산*/
+    width: 30px;  height: auto;
+    position: absolute;
+    top: 130px;
+    left: 100px;
+
+}
+.position1{     /*가평*/
+    width: 30px;  height: auto;
+    position: absolute;
+    top: 110px;
+    left: 145px;
+}
+.position6{        /*성남*/
+    width: 30px;  height: auto;
+    position: absolute;
+    top: 160px;
+    left: 125px;
+}
+.position8{     /*제주도*/
+    width: 30px;  height: auto;
+    position: absolute;
+    top: 500px;
+    left: 60px;
+}
+.position3{     /*순천*/
+    width: 30px;  height: auto;
+    position: absolute;
+    top: 420px;
+    left: 110px;
+
+}
+.position2{     /*강릉*/
+    width: 30px;  height: auto;
+    position: absolute;
+    top: 160px;
+    left: 270px;    
+
+}
+
+.trip1{
+    width: 150px;
+    height: 150px;
+    margin:auto 80px 80px auto;
+}
+
+.trip2{
+    width: 150px;
+    height: 150px;
+    margin:auto 80px 80px auto;
+}
+.trip3{
+    width: 150px;
+    height: 150px;
+    margin:auto 80px 80px auto;
+}
+
+
+.job{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: rgb(51,63,80);
+    position: absolute;
+    top: 2300px;
+    left: 120px;
+}
+
+.job>p{
+    text-align: center;
+    position: relative;
+    top: -50px;
+    left: -120px;
+
+}
+.img{
+    position: relative;
+    left: 200px;
+}
+
+.text1{
+    position: absolute;
+    top: 20px;
+    display: flex;
+    z-index: 1;
+}
+.line1{
+    width: 400px; position: absolute; left: 170px; top: 50px; z-index: 1;
+    color: white;
+    border: thin solid white;
+    
+}
+.line2{
+    width: 400px; position: absolute; top: 50px; left: 700px; z-index: 1;
+    color: white;
+    border: thin solid white;
+}
+.line1_1{
+    border: none;
+}
+.dot_line1{
+    height: 450px;
+    width: 0px;
+    border-right: 0px;
+    border-style: dotted;
+    color: white;
+    z-index: 1;
+    position:absolute;
+    left: 370px;
+    top: 80px;
+}
+.dot_line2{
+    height: 450px;
+    width: 0px;
+    border-right: 0px;
+    border-style: dotted;
+    color: white;
+    z-index: 1;
+    position:absolute;
+    left: 640px;
+    top: 80px;
+}
+.dot_line3{
+    height: 450px;
+    width: 0px;
+    border-right: 0px;
+    border-style: dotted;
+    color: white;
+    z-index: 1;
+    position:absolute;
+    left: 910px;
+    top: 80px;
+}
+.dot_line4{
+    height: 450px;
+    width: 0px;
+    border-right: 0px;
+    border-style: dotted;
+    color: white;
+    z-index: 1;
+    position:absolute;
+    left: 1180px;
+    top: 80px;
+}
+
+.graph{
+    display:flexbox;
+    
+}
+
+.graph1{
+    height: 40px; width: 450px; border-radius: 40px; 
+    position: absolute; top: 100px; left: 120px;
+}   
+.graph1>span{
+    display: block; height: 40px; line-height: 40px; text-align: center;
+    background: rgb(202, 181, 189);
+    border-radius: 40px;
+    padding: 10px;
+    color: white;
+}
+.graph1_1{
+    height: 40px; width: 250px;border-radius: 40px; 
+    position: absolute; top: 100px; left: 780px;
+}    
+.graph1_1>span{
+    display: block; height: 40px; line-height: 40px; text-align: center;
+    background: rgb(202, 181, 189);
+    border-radius: 40px;
+    padding: 10px;
+    color: white;
+}
+
+.graph2{
+    height: 40px; width: 380px; border-radius: 40px; 
+    position: absolute; top:180px; left: 140px;
+}   
+.graph2>span{
+    display: block; height: 40px; line-height: 40px; text-align: center;
+    background: rgb(50 99 142);
+    border-radius: 40px;
+    padding: 10px;
+    color: white;
+}
+.graph2_2{
+    height: 40px; width: 180px; border-radius: 40px; 
+    position: absolute; top: 180px; left: 850px;
+}   
+.graph2_2>span{
+    display: block; height: 40px; line-height: 40px; text-align: center;
+    background: rgb(50 99 142);
+    border-radius: 40px;
+    padding: 10px;
+    color: white;
+}
+.graph3{
+    height: 40px; width: 150px; border-radius: 40px; 
+    position: absolute; top: 260px; left: 300px;
+}   
+.graph3>span{
+    display: block; height: 40px; line-height: 40px; text-align: center;
+    background: rgb(33 52 92) ;
+    border-radius: 40px;
+    padding: 10px;
+    color: white;
+}
+.graph4{
+    height: 40px; width: 100px; border-radius: 40px; 
+    position: absolute; top: 260px; left: 600px;
+}   
+.graph4>span{
+    display: block; height: 40px; line-height: 40px; text-align: center;
+    background: rgb(119 121 145);
+    border-radius: 40px;
+    padding: 10px;
+    color: white;
+}
+.graph5{
+    height: 40px; width: 100px; border-radius: 40px; 
+    position: absolute; top: 340px; left: 720px;
+}   
+.graph5>span{
+    display: block; height: 40px; line-height: 40px; text-align: center;
+    background: rgb(202, 181, 189);
+    border-radius: 40px;
+    padding: 10px;
+    color: white;
+}
+.graph6{
+    height: 40px; width: 100px; border-radius: 40px; 
+    position: absolute; top: 420px; left: 1000px;
+}   
+.graph6>span{
+    display: block; height: 40px; line-height: 40px; text-align: center;
+    background: rgb(50 99 142);
+    border-radius: 40px;
+    padding: 10px;
+    color: white;
+}
+.graph7{
+    height: 40px; width: 100px; border-radius: 40px; 
+    position: absolute; top: 500px; left: 1060px;
+}   
+.graph7>span{
+    display: block; height: 40px; line-height: 40px; text-align: center;
+    background: rgb(33 52 92);
+    border-radius: 40px;
+    padding: 10px;
+    color: white;
+}
+
+.graph8{
+    height: 40px; width: 150px; border-radius: 40px; 
+    position: absolute; top: 260px; left: 1180px;
+}   
+.graph8>span{
+    display: block; height: 40px; line-height: 40px; text-align: center;
+    background: rgb(255 217 102);
+    border-radius: 40px;
+    padding: 10px;
+    color: white;
+}
+.dream{
+    width: 1280px;
+    height: 900px;
+    margin: auto;
+    background: rgb(51,63,80);
+    position: absolute;
+    top: 3100px;
+    left: 150px;
+}
+.dream>p{
+    text-align: right;
+    position: relative;
+    left: -20px;
+}
+.square{
+    display: flex; 
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+}
+.squ1{
+    width: 300px;
+    padding: 180px 0px;
+    background-color: rgb(33 52 92) ;
+    margin: auto 20px;
+    color: white;
+
+}
+.squ2{
+    width: 300px;
+    padding: 180px 0px;
+    background-color: rgb(50 99 142) ;
+    margin: auto 20px;
+    color: white;
+
+}
+
+.squ3{
+    width: 300px;
+    padding: 180px 0px;
+    background-color: rgb(109 140 172);
+    margin: auto 20px;
+    color: white;
+
+}
+.squ4{
+    width: 300px;
+    padding: 180px 0px;
+    background-color: rgb(201 202 207) ;
+    margin: auto 20px;
+    color: white;
+
+}
+
+.blockline1{
+    width: 280px;  color: white; border: thin solid white;   
+    position: relative;
+    top: 250px;
+}
+.blockline2{
+    width: 280px;  color: white; border: thin solid white;   
+    position: relative;
+    top: 250px;
+}
+
+.blockline3{
+    width: 280px;  color: white; border: thin solid white;   
+    position: relative;
+    top: 250px;
+}
+
+.blockline4{
+    width: 280px;  color: white; border: thin solid white;   
+    position: relative;
+    top: 250px;
+}
+
+.graph1>p{
+    display: none;
+}
+.graph2>p{
+    display: none;
+}
+.graph3>p{
+    display: none;
+}
+.graph4>p{
+    display: none;
+}
+.graph5>p{
+    display: none;
+}.graph6>p{
+    display: none;
+}.graph7>p{
+    display: none;
+}
+.graph8>p{
+    display: none;
+}
+}
+/*자자자자자ㅏ자자*/
+
+.section_wrap {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    padding-top: 100px;
+    position: relative;
+    top: -100px;
+    color: white;
+  }
+
+  .section_footer_btn {
+    width: 150px;
+    height: 40px;
+    margin: 50px auto;
+    line-height: 40px;
+    border-radius: 10px;
+    border: rgb(200, 200, 200) solid 1px;
+    text-align: center;
+    color: white;
+  }
+  
+  #contact .box_wrap {
+        text-align: center;
+        padding-top: 80px;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        top: -100px;
+      }
+      #contact .box_wrap .boxforcontact {
+        width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+      }
+      #contact .box_wrap .box_input {
+        width: 48%;
+        height: 500px;
+        float: left;
+        position: absolute;
+        left: 30%;
+        
+      }
+      #contact .box_wrap .box_input .name {
+        text-align: right;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+      .name>span{
+          color: white;
+          font-size: 20px;
+      }
+      #contact .box_wrap .box_input .name input {
+        height: 22px;
+        width: calc(100% - 110px);
+      }
+      #contact .box_wrap .box_input .pw {
+        text-align: left;
+        width: 100%;
+        position: absolute;
+        left: 22px;
+        top: 35px;
+      }
+      .pw>span{
+        color: white;
+        font-size: 20px;
+    }
+      #contact .box_wrap .box_input .pw input[type=password] {
+        height: 22px;
+      }
+      #contact .box_wrap .box_input .contents {
+        text-align: right;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 70px;
+      }
+
+      .contents>span{
+        color: white;
+        font-size: 20px;
+    }
+      #contact .box_wrap .box_input .contents textarea {
+        width: calc(100% - 110px);
+        height: 200px;
+      }
+      #contact .box_wrap .box_input .btn_wrap {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 270px;
+      }
+
+      #board_list_wrap{
+          width: 100%;
+          position: relative;
+          top: 400px;
+      }
+      .board_list{
+        width: 60%;
+        height: 500px;          
+        text-align: center;
+        background-color: white;
+        position: absolute;
+        left: 20%;
+      }
+      .board_list>div>div{
+        display: inline-block;
+        font-size: 1.4rem;
+        padding: 5px;
+        color: white;
+      }
+      .board_list .title{
+          width: 60%;
+          border: black solid 1px;
+
+      }
+      .writer{
+          width: 10%;
+          border: black solid 1px;
+      }
+
+    
+
+@media screen and (max-width:757px) {
+
+    .contents1{
+        font-size: 5px;
+        font-weight: lighter;
+        color: white;
+    }
+    
+    .intro_bg{
+        background-image: url(./images/새벽뷰\ 1.jpeg);
+        width: 100%;
+        height: 300px;
+        margin: auto auto 0px auto;
+    }
+    #nav{
+        display:none;
+    }
+    
+    #nav>li{
+        margin-right: auto;
+    }
+    
+    #nav>li>a{
+        color: white;
+    }
+    
+    .amount{
+       display: none;
+    }
+    .intro_text{
+        width: 100%;
+        height: 700px;
+        margin: 0px auto 0px auto;
+        text-align: center;
+        color: white;
+        position: absolute;
+        top: 320px;
+    }
+    .intro_text>h1{
+        font-size: 10px;
+        font-weight: 10;
+        color: white;
+        text-align: center;
+    
+    }
+    .intro_text >h4{
+        color: white;
+        position: relavtive;
+        top: -500px
+    }   
+    .box{
+        width: 25px;
+        padding: 150px 0;
+        background-color: rgb(119 121 145);
+        position: relative;
+        left: 0px;
+        top: 100px;
+        text-align: center;
+        font-size: 10px;
+        font-weight: bolder;
+        color: white;
+        overflow: hidden;
+    }
+    .box1{
+        width: 25px;
+        padding: 250px 0;
+        background-color: rgb(119 121 145);
+        position: relative;
+        left: 0px;
+        top: 0px;
+        text-align: center;
+        font-size: 10px;
+        font-weight: bolder;
+        color: white;    
+    }
+    #fifth .box{
+        width: 25px;
+        padding: 280px 0;
+        background-color: rgb(119 121 145);
+        position: relative;
+        top: 0px;
+        text-align: center;
+        font-size: 10px;
+        font-weight: bolder;
+        color: white;  
+    }
+    
+    .int{
+        width: 200px;
+        background: rgb(51,63,80);
+        margin: 100px 0px;
+        position: absolute;
+        left: 250px;
+        top: 350px;
+    }
+    
+    .item{
+        width: 1280px;
+        margin: 20px auto auto;
+        color: white;
+        font-size: 10px;
+        font-weight: bolder;
+    }
+    .item1{
+        display: none;
+    }
+    p{
+        color: white;
+        font-size: 15px;
+        font-weight: bolder;
+    }
+    .img-wrap{
+        position: absolute;
+        left: 40px;
+        top: 450px;
+    }
+    .selfimg{
+        height: 250px;
+    }
+    
+    .trip{
+        width: 100%;
+        background: rgb(51,63,80);
+        margin: 0px 0px 0px 40px ;
+        position: absolute;
+        top: 800px;
+    }
+    .trip>p{
+        font-size: 20px;
+    }
+    
+    .img-wrap2{
+        display: none;
+    }
+    .trip1{
+        width: 100px;
+        height: 100px;
+        margin:auto 30px 30px auto;
+    }
+    .trip2{
+        width: 100px;
+        height: 100px;
+        margin:auto 30px 30px auto;
+    }
+    .trip3{
+        width: 100px;
+        height: 100px;
+        margin:auto 30px 30px auto;
+    }
+    
+    .job{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        background: rgb(51,63,80);
+        position: absolute;
+        top: 1300px;
+        left: 0px
+    }
+    
+    .job>p{
+        position: relative;
+        font-size: 20px;
+        left: 60px;
+        top: -50px;
+        
+
+    }
+    .img{
+        display: none;
+    }
+    
+    .text1{
+        display: none;
+    }
+    .line1{
+        display: none;
+    }
+    .line2{
+        display: none;
+    }
+    .line1_1{
+        display: none;
+    }
+    .dot_line1{
+        display: none;
+    }
+    .dot_line2{
+        display: none;
+    }
+    .dot_line3{
+        display: none;
+    }
+    .dot_line4{
+        display: none;
+    } 
+    
+   .graph{
+        display:flexbox;
+    }
+    
+    .graph1{
+        width: 170px;
+        position: absolute; top: 70px; left: 40px;
+    }   
+    .graph1>span{
+        display: block; height: 30px; line-height: 30px; text-align: center;
+        background: rgb(202, 181, 189);
+        border-radius: 30px;
+        padding: 10px;
+        color: white;
+    }
+    .graph1_1{
+        display: none;
+    } 
+    .graph1_1>span{
+        display: none;
+    }
+    .graph2{
+        width: 170px;
+        position: absolute; top: 130px; left: 40px;
+    }   
+    .graph2>span{
+        display: block; height: 30px; line-height: 30px; text-align: center;
+        background: rgb(50 99 142);
+        border-radius: 30px;
+        padding: 10px;
+        color: white;
+    }
+    .graph2_2{
+        display: none; 
+    }   
+    .graph2_2>span{
+        display: none;
+
+    }
+    .graph3{
+        width: 170px;
+        position: absolute; top:190px; left: 40px;
+    }   
+    .graph3>span{
+        display: block; height: 30px; line-height: 30px; text-align: center;
+        background: rgb(33 52 92) ;
+        border-radius: 30px;
+        padding: 10px;
+        color: white;
+    }
+    .graph4{
+        width: 170px;
+        position: absolute; top: 250px; left: 40px;
+    }   
+    .graph4>span{
+        display: block; height: 30px; line-height: 30px; text-align: center;
+        background: rgb(119 121 145);
+        border-radius: 30px;
+        padding: 10px;
+        color: white;
+    }
+
+    .graph5{
+        width: 170px;
+        position: absolute; top: 310px; left: 40px;
+    }   
+    .graph5>span{
+        display: block; height: 30px; line-height: 30px; text-align: center;
+        background: rgb(202, 181, 189);
+        border-radius: 30px;
+        padding: 10px;
+        color: white;
+    }
+
+    .graph6{
+        width: 170px;
+        position: absolute; top: 370px; left: 40px;
+    }   
+    .graph6>span{
+        display: block; height: 30px; line-height: 30px; text-align: center;
+        background: rgb(50 99 142);
+        border-radius: 30px;
+        padding: 10px;
+        color: white;
+    }
+
+    .graph7{
+        width: 170px;
+        position: absolute; top: 430px; left: 40px;
+    }   
+    .graph7>span{
+        display: block; height: 30px; line-height: 30px; text-align: center;
+        background: rgb(33 52 92);
+        border-radius: 30px;
+        padding: 10px;
+        color: white;
+    }
+    .graph8{
+        width: 170px;
+        position: absolute; top: 10px; left: 40px;
+    }   
+    .graph8>span{
+        display: block; height: 30px; line-height: 30px; text-align: center;
+        background: rgb(255 217 102);
+        border-radius: 30px;
+        padding: 10px;
+        color: white;
+    }
+    .graph1>p{
+        color: white;
+        display: block;
+        position: relative;
+        top: -50px;
+        left: 200px;
+    }
+    .graph2>p{
+        display: block;
+        color: white;
+        position: relative;
+        top: -50px;
+        left: 200px;
+        
+    }
+    .graph3>p{
+        display: block;
+        color: white;
+        position: relative;
+        top: -42px;
+        left: 200px;        
+    }
+    .graph4>p{
+        display: block;
+        color: white;
+        position: relative;
+        top: -42px;
+        left: 200px; 
+    }
+    .graph5>p{
+        display: block;
+        color: white;
+        position: relative;
+        top: -42px;
+        left: 200px; 
+    }.graph6>p{
+        display: block;
+        color: white;
+        position: relative;
+        top: -42px;
+        left: 200px; 
+    }.graph7>p{
+        display: block;
+        color: white;
+        position: relative;
+        top: -42px;
+        left: 200px; 
+    }
+    .graph8>p{
+        display: block;
+        color: white;
+        position: relative;
+        top: -42px;
+        left: 200px; 
+    }
+    .dream{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        background: rgb(51,63,80);
+        position: absolute;
+        top: 1900px;
+        left: 60px;
+    }
+    .dream>p{
+        text-align: left;
+        font-size: 20px;
+    }
+    .square{
+        display: flex; 
+        font-size: 15px;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .squ1{
+        width: 150px;
+        padding: 80px 0px;
+        background-color: rgb(33 52 92) ;
+        margin: auto 15px;
+        color: white;
+        position: relative;
+        left: -20px;
+    
+    }
+    .blockline1{
+        width: 148px;  color: white; border: thin solid white;   
+        position: relative;
+        top: 115px;
+    }
+    .squ2{
+        width: 150px;
+        padding: 80px 0px;
+        background-color: rgb(50 99 142) ;
+        margin: auto 15px;
+        color: white;        
+        position: relative;
+        left: -20px;
+    }
+    .blockline2{
+        width: 148px;  color: white; border: thin solid white;   
+        position: relative;
+        top: 115px;
+    }
+    
+    .squ3{
+        width: 150px;
+        padding: 80px 0px;
+        background-color: rgb(109 140 172);
+        margin: auto 15px;
+        color: white;
+        position: absolute;
+        top: 250px;
+        left: -20px;
+
+    
+    
+    }
+    .blockline3{
+        width: 148px;  color: white; border: thin  solid white;
+        position: relative;
+        top: 115px;
+    }
+    
+    .squ4{
+        width: 150px;
+        padding: 80px 0px;
+        background-color: rgb(201 202 207) ;
+        margin: auto 15px;
+        color: white;
+        position: absolute;
+        top: 250px;
+        left: 160px;
+    
+    }
+    
+    .blockline4{
+        width: 148px;  color: white; border: thin solid white;   
+        position: relative;
+        top: 115px;
+    }
+    .section_wrap {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 400;
+        padding-top: 20px;
+        position: relative;
+        top: 30px;
+        color: white;
+    }
+
+    .section_footer_btn {
+    width: 150px;
+    height: 40px;
+    margin: 50px auto;
+    line-height: 40px;
+    border-radius: 10px;
+    border: rgb(200, 200, 200) solid 1px;
+    text-align: center;
+    color: white;
+    }
+    #contact .box_wrap {
+        text-align: center;
+        padding-top: 50px;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        top: 60px;
+    }
+    #contact .box_wrap .boxforcontact {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    }
+    #contact .box_wrap .box_input {
+    width: 48%;
+    height: 500px;
+    float: left;
+    position: absolute;
+    left: 15%;
+    
+    }
+    #contact .box_wrap .box_input .name {
+    text-align: right;
+    width: 100%;
+    position: absolute;
+    left: 8px;
+    top: 0;
+    border: border solid white;
+    
+    }
+    .name>span{
+        color: white;
+        font-size: 20px;
+    }
+
+    #contact .box_wrap .box_input .name input {
+    height: 22px;
+    width: calc(100% - 70px);
+    }
+    #contact .box_wrap .box_input .pw {
+    text-align: left;
+    width: 100%;
+    position: absolute;
+    left: -12px;
+    top: 35px;
+    }
+    .pw>span{
+    color: white;
+    font-size: 20px;
+    }
+    #contact .box_wrap .box_input .pw input[type=password] {
+    height: 22px;
+    width: calc(100% - 100px);
+    }
+    #contact .box_wrap .box_input .contents {
+    text-align: left;
+    width: 100%;
+    position: absolute;
+    left: 25px;
+    top: 70px;
+    }
+    .contents>span{
+    color: white;
+    font-size: 20px;
+    }
+    #contact .box_wrap .box_input .contents textarea {
+    width: calc(100% - 70px);
+    height: 150px;
+    }
+    #contact .box_wrap .box_input .btn_wrap {
+    width: 100%;
+    position: absolute;
+    left: 40px;
+    top: 270px;
+    }
+    
+}

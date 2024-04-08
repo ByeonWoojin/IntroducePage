@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width, user-scalable=0">
+
+        <style>
+        body {
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cb60b3+0,ad1283+25,6e3ab7+100 */
+       /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3f4c6b+0,3f4c6b+100 */
+        background: rgb(51,63,80); /* Old browsers */
+        background: -moz-linear-gradient(top,  rgba(51,63,80,1) 0%, rgba(51,63,80,1) 100%); /* FF3.6-15 */
+        background: line ar-gradient(to bottom,  rgba(51,63,80,1) 0%,rgba(51,63,80,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', endColorstr='#3f4c6b',GradientType=0 ); /* IE6-9 */
+        }
+        </style>
+        <title>변우진 페이지</title>
+
+        <script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script>
+        $( document ).ready(function() {
+            $('.position1').hide();
+            $('.position2').hide();
+            $('.position3').hide();
+            $('.position4').hide();
+            $('.position5').hide();
+            $('.position6').hide();
+            $('.position7').hide();
+            $('.position8').hide();
+            $('.position9').hide();
+
+
+            $('#가평').on('mouseover', function() {
+            $('.position1').show();
+            });
+            $('#가평').on('mouseout', function() {
+            $('.position1').hide();
+            });
+
+            $('#강릉').on('mouseover', function() {
+            $('.position2').show();
+            });
+            $('#강릉').on('mouseout', function() {
+            $('.position2').hide();
+            });
+
+            $('#광양').on('mouseover', function() {
+            $('.position3').show();
+            });
+            $('#광양').on('mouseout', function() {
+            $('.position3').hide();
+            });
+
+            $('#남산').on('mouseover', function() {
+            $('.position4').show();
+            });
+            $('#남산').on('mouseout', function() {
+            $('.position4').hide();
+            });
+
+
+            $('#부산').on('mouseover', function() {
+            $('.position5').show();
+            });
+            $('#부산').on('mouseout', function() {
+            $('.position5').hide();
+            });
+
+            
+            $('#성남').on('mouseover', function() {
+            $('.position6').show();
+            });
+            $('#성남').on('mouseout', function() {
+            $('.position6').hide();
+            });
+
+            $('#인천').on('mouseover', function() {
+            $('.position7').show();
+            });
+            $('#인천').on('mouseout', function() {
+            $('.position7').hide();
+            });
+
+            $('#제주도').on('mouseover', function() {
+            $('.position8').show();
+            });
+            $('#제주도').on('mouseout', function() {
+            $('.position8').hide();
+            });
+
+            $('#파주').on('mouseover', function() {
+            $('.position9').show();
+            });
+            $('#파주').on('mouseout', function() {
+            $('.position9').hide();
+            });
+        });
+        
+        fetch("http://localhost:3000/comments")
+            .then((response) => response.json())
+            .then((json) => console.log(json));
+        fetch("http://localhost:3000/comments/1")
+            .then((response) => response.json())
+            .then((json) => console.log(json));
+        fetch("http://localhost:3000/comments?postId=1")
+            .then((response) => response.json())
+            .then((json) => console.log(json));
+
+            fetch("http://localhost:3000/posts", {
+                method: "POST", // HTTP 요청 방법
+                body: JSON.stringify({
+            // 전송할 데이터
+                author: $(".name"),
+                contents : $(".contents")
+            }),
+            headers: {
+            // 헤더 값 정의 - content-type 정의
+                "content-type": "application/json; charset=UTF-8",
+            },
+        })
+            .then((response) => response.json())
+            .then((json) => console.log(json));
+
+
+        
+
+
+            fetch("http://localhost:3000/posts", {
+                method: "PUT", // HTTP 요청 방법
+                body: JSON.stringify({
+            // 전송할 데이터
+                author: $(".name"),
+                contents : $(".contents")
+            }),
+            headers: {
+            // 헤더 값 정의 - content-type 정의
+                "content-type": "application/json; charset=UTF-8",
+            },
+        })
+            .then((response) => response.json())
+            .then((json) => console.log(json));
+
+
+            fetch("http://localhost:3000/posts", {
+                method: "DELETE",
+        })
+            .then((response) => response.json())
+            .then((json) => console.log(json));
+            
+        </script>
+
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="intro_bg">
+                <div class="header" style="height: 80px;">
+                <nav id="nav" >
+                    <li><a href="#intro">자기 소개</a></li>
+                    <li><a href="#first">취미-여행</a></li>
+                    <li><a href="#fourth">알바-이력</a></li>
+                    <li><a href="#fifth">버킷리스트</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </nav>
+                </div>
+            <div class="intro_text">                    
+                <h1>글로벌미디어학부</h1>
+                <h4 class="contents1">20211589 변우진</h4>
+            </div>
+            </div>
+            <!--시작페이지-->
+            <ul class="amount">
+            <li>
+                    <div class="contents1">자기소개</div>
+            </li>
+            <li>
+                    <div class="contents1">취미-여행</div>
+            </li>
+
+            <li>
+                <div class="contents1">알바-이력</div>
+            </li>
+            <li>
+                <div class="contents1">버킷리스트</div>
+            </li>
+            </ul>
+            <!--자기 소개-->
+        <section id="intro">
+            <div class="int">
+                <p>
+                    자기소개
+                </p>
+                <div class="item">
+                    <br>이름: 변우진<br>
+                </div>
+                <div class="item">
+                    <br>나이: 23살<br>
+                </div>
+                <div class="item">
+                    <br>가족: 3남 중 차남<br>
+                </div>
+                <div class="item1">
+                    <br>출식학교: 우신고 졸업 후 숭실대 재학 중
+                </div>
+            </div>
+            <div class="box">
+                자  <br>기 <br> 소 <br> 개
+            </div>
+            <div class="img-wrap">
+                <img src="./images/자기소개.jpg" class="selfimg" alt="본인 사진" >
+            </div>
+        </section>
+            <!--취미-여행-->
+        <section id="first">
+            <div class="trip">
+                <p>
+                    Trip
+                </p>
+                
+                <img id="가평"src="./images/가평.jpg" alt="가평" class="trip1" >
+                <img id="강릉"src="./images/강릉.jpg" alt="강릉" class="trip1">
+                <img id="광양"src="./images/광양.jpg" alt="광양" class="trip1">
+                <br>
+                <img id="남산"src="./images/남산.jpg" alt="남산" class="trip2" >
+                <img id="부산"src="./images/부산.jpg" alt="부산" class="trip2" >
+                <img id="성남"src="./images/성남.jpg" alt="성남" class="trip2" >
+                <br>
+                <img id="인천"src="./images/인천.jpg" alt="인천" class="trip3">
+                <img id="제주도"src="./images/제주도.jpg" alt="제주도" class="trip3">
+                <img id="파주"src="./images/파주.jpg" alt="파주" class="trip3">
+                
+            </div>
+            <div class="img-wrap2">
+                <img src="./images/자산 1.png" alt="한반도 지도" height="550">
+                <img src="./images/체크.png" class="position1">
+                <img src="./images/체크.png" class="position2">
+                <img src="./images/체크.png" class="position3">
+                <img src="./images/체크.png" class="position4">
+                <img src="./images/체크.png" class="position5">
+                <img src="./images/체크.png" class="position6">
+                <img src="./images/체크.png" class="position7">
+                <img src="./images/체크.png" class="position8">
+                <img src="./images/체크.png" class="position9">
+
+
+            </div>
+            <div class="box1">
+                취 <br> 미<br>-<br>여 <br> 행
+            </div>
+        </section>
+            <!--알 바 이력-->
+        <section id="fourth">
+            <div class="job">
+                <p>
+                    알바 이력
+                </p>
+                <hr class="line1">
+                <hr class="line2">
+                <hr class="dot_line1">
+                <hr class="dot_line2">
+                <hr class="dot_line3">
+                <hr class="dot_line4">
+
+
+                
+                <div class="text1">
+                    <p style="margin-left:90px">
+                        2020
+                    </p>
+                    <p style="margin-left: 445px">
+                        2021
+                    </p>
+                    <p style="margin-left: 460px">
+                        2022
+                    </p>
+                </div>
+                <div class="img">
+                    <img src="./images/도로1.png" class="final_bg" alt="도로1" width="auto" height="80%">
+                    <img src="./images/도로 반전1.png" class="final_bg" alt="도로1" width="auto" height="80%">
+                </div>
+                <div class="graph">
+                    <div class="graph1">
+                            <span>설 빙</span>
+                            <p>2020.01  ~  2020.11</p>
+                            <p>2021.03  ~  2021.09</p>
+                    </div>
+                    <div class="graph1_1">
+                        <span> 설 빙</span>
+                    </div>
+                    
+
+                    <div class="graph2">
+                        <span>노랑 통닭</span>
+                        <p>2020.02  ~  2020.10</p>
+                        <p>2021.06  ~  2020.08</p>
+                    </div>
+                    <div class="graph2_2">
+                        <span>노 통</span>
+                    </div>
+
+
+                    <div class="graph3">
+                        <span>호텔 알바</span>
+                        <p>2020.04  ~  2020.10</p>
+                    </div>
+
+
+                    <div class="graph4">
+                        <span>막노동</span>
+                        <p>2020.12  ~  2021.02</p>
+                    </div>
+
+
+                    <div class="graph5">
+                        <span>대창집</span>
+                        <p>2021.02  ~  2020.05</p>
+                    </div>
+                    
+                    <div class="graph6">
+                        <span>편의점</span>
+                        <p>2021.08  ~  2021.12</p>
+                    </div>
+
+                    <div class="graph7">
+                        <span>자담 치킨</span>
+                        <p>2021.12  ~  2021.3</p>
+                    </div>
+                    
+                    <div class="graph8">
+                        <span>메가 커피</span>
+                        <p>2022.03  ~  현재</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="box1">
+                알 <br> 바 <br> 이 <br> 력
+            </div>
+        </section>
+
+            <!--버킷리스트-->
+        <section id="fifth">
+            <div class="dream">
+                <p>
+                    Wish List
+                </p>
+            
+                <div class="square">
+                    <div class="squ1">
+                        <hr class="blockline1">
+                        건강한 몸 만들기    
+                    </div>
+                    <div class="squ2">
+                        <hr class="blockline2">
+                        카페 사장
+                    </div>
+                    <div class="squ3">
+                        <hr class="blockline3">
+                        스카이 다이빙
+                    </div>
+                    <div class="squ4">
+                        <hr class="blockline4">
+                        유럽 여행 투어
+                    </div>
+                </div>
+                
+            </div>
+            <div class="box">
+                버 <br> 킷 <br> 리 <br> 스 <br> 트
+            </div>
+        </section>
+             <!-- Contact -->
+        <section id="contact">
+            <div class="section_wrap">
+              Contact
+            </div>
+            <div class="box_wrap">
+              <div class="boxforcontact">
+                <div class="box_input">
+                  <div class="name">
+                    <span>이름: </span>
+                    <span>
+                      <input type="" />
+                    </span>
+                  </div>
+                  <div class="pw">
+                    <span>비밀번호: </span>
+                    <span>
+                      <input type="password" />
+                    </span>
+                  </div>
+                  <div class="contents">
+                    <span>내용: </span>
+                    <span>
+                      <textarea></textarea>
+                    </span>
+                  </div>
+                  <div class="btn_wrap">
+                    <div class="section_footer_btn" style="margin: 30px auto;">
+                      <button type="submit">등 록</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+        </div>
+    </body>
+</html>
